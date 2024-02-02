@@ -14,7 +14,7 @@ st.sidebar.success("Select a page")
 st.title("ChatBot Interface")
 
 # Initialize OpenAI client with API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
     
 #"""
 #elif st.cache_data["messages"] != None:

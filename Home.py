@@ -34,7 +34,7 @@ st.header("MongoDB Table")
 st.text("Doc Source: https://docs.streamlit.io/knowledge-base/tutorials/databases/mongodb")
 
 # OpenID Connect (OIDC) Docs: https://www.microsoft.com/en-us/security/business/security-101/what-is-openid-connect-oidc#:~:text=OpenID%20Connect%20(OIDC)%20is%20an,who%20they%20say%20they%20are.
-url = "mongodb+srv://saiMongoDB:saibabaMDB724@cluster0.x3q0txw.mongodb.net/?retryWrites=true&w=majority"
+url = ""
 
 # Create a new client and connect to the server
 client = MongoClient(url, server_api=ServerApi('1'))
